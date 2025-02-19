@@ -29,7 +29,7 @@ february
 ✅feb 16
 ✅feb 17
 ✅feb 18
-feb 19
+✅feb 19
 feb 20
 feb 21
 feb 22
