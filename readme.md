@@ -74,34 +74,34 @@ april
 may
 ---------------------------------
 <pre>
-may 04
+may 03
 
-may 10
+may 11
+may 12
+may 13
+may 14
+may 15
+may 16
+may 17
 
-may 18
-may 19
-may 20
 may 21
-may 22
-may 23
-may 24
+  
+may 27
 
-may 28
+may 29
 </pre>
 
 
 june
 ---------------------------------
 <pre>
-june 03
+june 02
 
-june 05
+june 06
 
-june 09
+(optional)
+june 08
 
-june 13
+june 14
 
-june 15
-
-june 21
 </pre>
