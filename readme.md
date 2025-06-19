@@ -108,5 +108,16 @@ june 14
 
 
 ##### for adding previous date commit
-- GIT_AUTHOR_DATE="2025-06-06T12:00:00" GIT_COMMITTER_DATE="2025-06-06T12:00:00" git commit --allow-empty -m "Backdated commit"
+- GIT_AUTHOR_DATE="2025-06-18T12:00:00" GIT_COMMITTER_DATE="2025-06-18T12:00:00" git commit --allow-empty -m "Backdated commit"
 - git push origin main
+
+```
+for i in {1..200}; do
+  hour=$((12 + i)) # varies from 13 to 22
+  GIT_AUTHOR_DATE="2025-06-18T${hour}:00:00" \
+  GIT_COMMITTER_DATE="2025-06-18T${hour}:00:00" \
+  git commit --allow-empty -m "Backdated commit #$i on 2025-06-18"
+done
+
+git push origin main
+```
